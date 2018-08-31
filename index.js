@@ -18,3 +18,4 @@ const fareTripler = createFareMultiplier(3);
 const selectDifferentDrivers = function (collection, whichOnes) {
   return whichOnes(collection);
 }
+// notes: using same collection as first and second functions. whichOnes passes in either returnFirstTwoDrivers or returnLastTwoDrivers per test requrements.
